@@ -13,7 +13,7 @@
         <ListView x:Name="listView">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <TextCell Text="{Binding name}" /> <!--puedo cambiar por cualquier otro campo-->
+                    <TextCell Text="{Binding name}" /> <!--puedo cambiar por cualquier otro campo de acuerdo con el mopdelo-->
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
